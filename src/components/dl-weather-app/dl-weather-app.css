@@ -1,0 +1,120 @@
+:host {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+}
+p {
+  margin: 0;
+}
+.form {
+  border-radius: 16px;
+  padding: 32px;
+  width: 500px;
+  border: 2px solid var(--theme-color, #3b013b);
+  display: flex;
+}
+
+h3 {
+  color: var(--theme-color, #3b013b);
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.input {
+  appearance: none;
+  border: 2px solid var(--theme-color, #3b013b);
+  background: none;
+  outline: none;
+  border-radius: 16px;
+  padding: 16px;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto 16px;
+  color: var(--theme-color, #3b013b);
+  font-size: 18px;
+  transition: 0.2s ease-out;
+}
+
+.input.btn {
+  appearance: none;
+  border: 2px solid var(--theme-color, #3b013b);
+  background: none;
+  outline: none;
+  border-radius: 16px;
+  padding: 16px;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 16px;
+  color: var(--theme-color, #3b013b);
+  margin-left: 20px;
+  font-size: 18px;
+  transition: 0.2s ease-out;
+}
+
+.input::placeholder {
+  color: #ccc;
+}
+
+.btn {
+  color: var(--theme-color, #3b013b);
+  cursor: pointer;
+  border: 3px solid transparent;
+  padding: 13px;
+  font-weight: 700;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.btn:hover {
+  box-shadow: -3px -3px 8px 3px #fff, 3px 3px 8px 3px #c4c4c4;
+}
+
+small {
+  font-size: 1rem;
+}
+
+.result {
+  margin-top: 32px;
+}
+
+.result {
+  display: grid;
+  grid-template-columns: 4fr 2fr 1fr;
+  align-items: center;
+}
+
+a,
+a:link,
+a:active {
+  color: #9c9c9c;
+}
+
+.desc {
+  color: var(--theme-color, #3b013b);
+  margin-top: 2rem;
+  font-size: 30px;
+}
+
+.temperature {
+  font-size: 8rem;
+  position: relative;
+  color: var(--theme-color, #3b013b);
+
+  sup {
+    font-size: 30px;
+    position: absolute;
+    top: 45px;
+  }
+}
+
+.content {
+  img {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+  }
+}

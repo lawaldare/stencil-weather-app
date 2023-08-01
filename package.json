@@ -1,7 +1,7 @@
 {
-  "name": "stencil-weather-component",
-  "version": "0.0.1",
-  "description": "Stencil Component Starter",
+  "name": "dl-weather-component",
+  "version": "0.0.5",
+  "description": "Weather App Component",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "es2015": "dist/esm/index.mjs",
