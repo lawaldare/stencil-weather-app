@@ -1,6 +1,6 @@
 {
   "name": "dl-weather-component",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Weather App Component",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -12,7 +12,7 @@
   "unpkg": "dist/stencil-weather-component/stencil-weather-component.esm.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "https://github.com/lawaldare/stencil-weather-app"
   },
   "files": [
     "dist/",
