@@ -12,7 +12,36 @@ To start using this component:
 npm install dl-weather-component
 ```
 
-and add this to your html file:
+To use on an Vanilla JS application, add this to your html file:
+
+```bash
+  <dl-weather-app></dl-weather-app>
+```
+
+and also import the script file:
+
+```bash
+  <script type="module"
+    src="./node_modules/dl-weather-component/dist/stencil-weather-component/stencil-weather-component.esm.js"></script>
+```
+
+To use on an Angular application:
+
+Update the module you want to use the component:
+
+```bash
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+```
+
+update the main.ts file:
+
+```bash
+import { defineCustomElements } from 'dl-weather-component/loader';
+
+defineCustomElements(window);
+```
+
+then you can add this to the template of the compoent:
 
 ```bash
   <dl-weather-app></dl-weather-app>
